@@ -20,7 +20,7 @@ const Solution = () => {
                     <div className="dot-grid absolute left-3/4"></div>
 
                     <div className="flex shadow-lg items-center rounded-[33px] p-2 w-[250px] mt-12 absolute right-[-40px] bg-white top-2/3">
-                        <span className="h-14 w-14 bg-[#0089BA] rounded-full flex items-center justify-center text-white me-[30px]">
+                        <span className="h-14 w-14 bg-[#6E27E0] rounded-full flex items-center justify-center text-white me-[30px]">
                             <FaUserMd />
                         </span>
                         <p className="flex flex-col">
