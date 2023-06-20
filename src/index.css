@@ -9,3 +9,17 @@
 .btn{
   @apply inline-flex items-center h-12 py-4 px-11 mb-3 font-medium text-white transition duration-200 rounded-md shadow-md  md:mb-0 bg-[#FF8B42] hover:bg-[#e9742b] border-0
 }
+
+.dot-grid {
+  height: 132px;
+  width: 132px;
+  background-image: radial-gradient(#b5b4b4 2px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+
+
+
+
+
+
