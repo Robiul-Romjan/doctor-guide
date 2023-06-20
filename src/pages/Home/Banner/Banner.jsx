@@ -5,7 +5,7 @@ import doctor2 from "../../../assets/images/doctor-2.png"
 
 const Banner = () => {
     return (
-        <div className="relative mb-96">
+        <div className="relative">
             <Circle />
             <div className="my-container grid md:grid-cols-3 md:ms-12 gap-4 relative">
                 <div className="flex items-center relative">
