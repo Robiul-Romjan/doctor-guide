@@ -12,7 +12,7 @@ const Schedule = () => {
                     <VerticalSlider />
                 </div>
                 <div className="ms-auto relative">
-                    <img className="absolute h-full right-0 bottom-0" src={doctor3} alt="" />
+                    <img data-aos="zoom-in-down" data-aos-duration="1000" className="absolute h-full right-0 bottom-0" src={doctor3} alt="" />
                     <div className="dot-grid absolute right-0"></div>
 
                     <div className="flex shadow-lg items-center justify-end rounded-[33px] p-2 w-[250px] absolute md:left-[-120px] right-0 bg-white top-[22%]">

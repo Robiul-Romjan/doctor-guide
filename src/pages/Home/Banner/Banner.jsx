@@ -16,7 +16,7 @@ const Banner = () => {
                         <button className="btn">Make Appointment</button>
                     </div>
                 </div>
-                <div className="relative mb-14 mt-8 ms-auto">
+                <div data-aos="zoom-in" data-aos-duration="1000" className="relative mb-14 mt-8 ms-auto">
                     <img className="absolute bottom-0 h-full pt-5" src={doctor1} alt="" />
                     <div className="dot-grid absolute bottom-[-56px] left-[-60px]"></div>
                     <div className="flex flex-col justify-between h-full">
@@ -24,7 +24,7 @@ const Banner = () => {
                         <div className="h-[434px] w-[338px] bg-[#FF8B42] rounded-t-[150px] rounded-b-[20px]"></div>
                     </div>
                 </div>
-                <div className="relative ms-auto mt-10 md:mt-0">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" className="relative ms-auto mt-10 md:mt-0">
                     <img className="absolute bottom-0 h-[792px]" src={doctor2} alt="" />
                     <div className="flex flex-col justify-between h-full">
                         <div className="h-[434px] w-[338px] bg-[#0089BA] rounded-b-[150px] rounded-t-[20px] mt-20"></div>

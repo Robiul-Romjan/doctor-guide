@@ -6,7 +6,8 @@ const Solution = () => {
         <div className="my-container md:mt-[160px] mt-20">
             <div className="flex flex-col-reverse md:flex-row items-center">
                 <div className="relative mr-20">
-                    <img className="absolute h-full bottom-0 md:right-1/4 left-1/3 md:left-[100px]" src={doctor2} alt="" />
+                    <img data-aos="flip-up"  data-aos-duration="1000"
+                        className="absolute h-full bottom-0 md:right-1/4 left-1/3 md:left-[100px]" src={doctor2} alt="" />
                     <div className="flex shadow-lg items-center rounded-[33px] p-2 w-[250px] mt-12">
                         <span className="h-14 w-14 bg-[#0089BA] rounded-full flex items-center justify-center text-white md:me-[30px] me-0">
                             <FaUserMd />

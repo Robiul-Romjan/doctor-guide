@@ -27,7 +27,7 @@ const MedicalCare = () => {
                 <p className="text-sm text-[#273240] font-medium">Services We Provide</p>
                 <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-[30px] mt-[70px]'>
                     {
-                        data.map((service, i) => <div className='text-white' key={i}>
+                        data.map((service, i) => <div data-aos="zoom-in-down" data-aos-duration="1000" className='text-white' key={i}>
                             <img className='h-[227px] w-full' src={service.image} alt="" />
                             <p className='bg-[#6E27E0] py-[12px] text-[20px] font-medium'>{service.name}</p>
                         </div>)

@@ -4,7 +4,7 @@ const Subscribe = () => {
     return (
         <div className="my-container md:mt-[120px] mt-20 relative mb-[150px]">
             <div className="dot-grid absolute top-[50px] ml-[80px]"></div>
-            <img className="absolute hidden md:block bottom-0 h-[524px] ml-[102px]" src={doctor} alt="" />
+            <img data-aos="fade-right" data-aos-duration="1000" className="absolute hidden md:block bottom-0 h-[524px] ml-[102px]" src={doctor} alt="" />
             <div className="bg-[#0089BA] w-full h-[448px] rounded-2xl flex justify-center items-center md:flex-row flex-col">
                 <div className="md:w-1/2 w-full"></div>
                 <div className="md:w-1/2 w-full text-white mx-auto">
