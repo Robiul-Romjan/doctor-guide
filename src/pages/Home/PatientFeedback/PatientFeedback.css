@@ -1,0 +1,11 @@
+.patient-bg{
+    background-image: url("../../../assets/images/patient.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-patient{
+    background: rgba(110, 39, 224, 0.81);
+}
