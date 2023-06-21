@@ -4,7 +4,7 @@ const Awards = () => {
     return (
         <div className='bg-image mt-[118px] bg-gradient-to-r from-cyan-500 to-blue-500'>
             <div className="bg-gradient w-full h-[510px]">
-                <div className="my-container flex items-center justify-center gap-[90px] h-[500px] text-white">
+                <div className="my-container flex flex-col md:flex-row overflow-scroll items-center justify-center gap-[90px] h-[500px] text-white">
                     <div className="text-center">
                         <span><FaUserMd className='h-[112px] mx-auto text-white w-[97px]'  /></span>
                         <h4 className='text-[40px] font-bold mt-[11px]'>50</h4>

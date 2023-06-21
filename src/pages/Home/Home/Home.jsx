@@ -5,6 +5,7 @@ import MedicalExperts from "../MedicalExperts/MedicalExperts";
 import PatientFeedback from "../PatientFeedback/PatientFeedback";
 import Schedule from "../Schedule/Schedule";
 import Solution from "../Solution/Solution";
+import Subscribe from "../Subscribe/Subscribe";
 import UpcomingEvents from "../UpcomingEvents/UpcomingEvents";
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             <MedicalExperts />
             <PatientFeedback />
             <UpcomingEvents />
+            <Subscribe />
         </div>
     );
 };

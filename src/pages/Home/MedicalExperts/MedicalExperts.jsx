@@ -21,7 +21,8 @@ const MedicalExperts = () => {
                 <Swiper
                     modules={[Navigation, Pagination]}
                     navigation={true}
-                    slidesPerView={3}
+                    md:slidesPerView={3}
+                    slidesPerView={1}
                     spaceBetween={30}
                     pagination={{
                         clickable: true,

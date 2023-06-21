@@ -28,7 +28,7 @@ const MedicalCare = () => {
                 <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-[30px] mt-[70px]'>
                     {
                         data.map((service, i) => <div className='text-white' key={i}>
-                            <img className='h-[227px]' src={service.image} alt="" />
+                            <img className='h-[227px] w-full' src={service.image} alt="" />
                             <p className='bg-[#6E27E0] py-[12px] text-[20px] font-medium'>{service.name}</p>
                         </div>)
                     }

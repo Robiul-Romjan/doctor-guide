@@ -10,11 +10,15 @@ const UpcomingEvents = () => {
                 </h2>
                 <p className="text-sm text-[#273240] font-medium md:w-2/3 mx-auto mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className="mt-[70px] flex items-center">
-                <div className="w-1/2">
+            <div className="mt-[70px] flex items-center flex-col md:flex-row">
+                <div className="lg:w-1/2 w-full relative">
+                    <div className="h-[120px] w-[135px] bg-[#6E27E0] text-white absolute opacity-70 flex flex-col items-center justify-center right-0 m-[30px]">
+                        <h4 className="text-[40px] font-bold">12</h4>
+                        <p>DEC, 2023</p>
+                    </div>
                     <img className="w-full h-[530px]" src={card2} alt="" />
                 </div>
-                <div className="w-1/2 px-[61px] py-[66px] border border-[#273240]">
+                <div className="lg:w-1/2 w-full px-[61px] py-[66px] border border-[#273240]">
                     <h2 className="text-[28px] font-semibold">How to lead a good healthy life</h2>
                     <div className="flex">
                         <p className="flex items-center gap-[15px] text-[#FF8B42]"><FaCalendar /> <span className="text-black">15 Oct, 2019</span> </p>
@@ -27,8 +31,8 @@ const UpcomingEvents = () => {
                 </div>
             </div>
 
-            <div className="mt-[50px] flex items-center"> 
-                <div className="w-1/2 px-[61px] py-[66px] border border-[#273240]">
+            <div className="mt-[50px] flex items-center md:flex-row flex-col">
+                <div className="lg:w-1/2 w-full px-[61px] py-[66px] border border-[#273240]">
                     <h2 className="text-[28px] font-semibold">How to lead a good healthy life</h2>
                     <div className="flex">
                         <p className="flex items-center gap-[15px] text-[#FF8B42]"><FaCalendar /> <span className="text-black">15 Oct, 2019</span> </p>
@@ -39,7 +43,11 @@ const UpcomingEvents = () => {
                     <button className="btn mr-[30px]">Book Now</button>
                     <button className="btn-out">20 Available</button>
                 </div>
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full h-full relative">
+                    <div className="h-[120px] w-[135px] bg-[#6E27E0] text-white absolute opacity-70 flex flex-col items-center justify-center right-0 m-[30px]">
+                        <h4 className="text-[40px] font-bold">12</h4>
+                        <p>DEC, 2023</p>
+                    </div>
                     <img className="w-full h-[530px]" src={card1} alt="" />
                 </div>
             </div>

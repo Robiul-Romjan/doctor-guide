@@ -9,7 +9,7 @@ const Banner = () => {
             <Circle />
             <div className="my-container grid md:grid-cols-3 md:ms-12 gap-4 relative">
                 <div className="flex items-center relative">
-                    <div className="dot-grid absolute top-0"></div>
+                    <div className="dot-grid absolute md:top-0 md:left-0 right-0 top-0"></div>
                     <div>
                         <h2 className="text-[40px] font-bold">Find The Care <br /> You Need </h2>
                         <p className="text-sm py-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s,</p>
@@ -24,7 +24,7 @@ const Banner = () => {
                         <div className="h-[434px] w-[338px] bg-[#FF8B42] rounded-t-[150px] rounded-b-[20px]"></div>
                     </div>
                 </div>
-                <div className="relative ms-auto">
+                <div className="relative ms-auto mt-10 md:mt-0">
                     <img className="absolute bottom-0 h-[792px]" src={doctor2} alt="" />
                     <div className="flex flex-col justify-between h-full">
                         <div className="h-[434px] w-[338px] bg-[#0089BA] rounded-b-[150px] rounded-t-[20px] mt-20"></div>
